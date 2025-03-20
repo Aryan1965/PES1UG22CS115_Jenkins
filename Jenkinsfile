@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        degstage('Test') {
             steps {
                 sh './main/hello_exec'
             }
